@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+
+  <meta charset="UTF-8">
+  
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+
+<link rel="mask-icon" type="" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
+
+
+  <title>CodePen - Product Landing Page</title>
+  
+  
+  
+  
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-size: 18px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 26.4px; 
+  color: #427B85;
+  background: white;
+  text-align: center;
+}
+#page-wrapper {
+  position: relative;
+}
+
+.logo {
+  width: 60vw;
+}
+
+.layover-text {
+  color: white;
+  position: absolute;
+  top: 24.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+}
+.header-img{
+  height: auto;
+}
+.topnav {
+  background-color: #;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #427B85;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #EEE;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #DDD;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+.logo-responsive {
+    height: auto;
+    width: auto;
+    max-height: 72px;
+    max-width: 250px;
+}
+
+.topnav .non-active{
+  padding-top: 35px;
+  padding-bottom:47px;
+  padding-left: 35px;
+  padding-right:35px;
+}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no" >
+  <!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    
+    <meta charset = "UTF-8">
+<title>Ken Tabony Creations: Product Landing Page</title>    
+  </head>
+
+<div id="page-wrapper">
+<header id="header">
+<body translate="no" >
+  <div class="topnav" id="myTopnav">
+    
+  <a href="#Home" class="active">
+    <img 
+         id="logo"
+     src="https://www.freelogodesign.org/file/app/client/thumb/a975024a-976d-4d38-a638-8592d7e26ef8_200x200.png?1611165099778" class="logo-responsive"
+         alt="TalkSuite Logo"
+         /> </a>
+  <a href="#Features" class="non-active"> Features </a>
+  <a href="#Explain" class="non-active">How It Works</a>
+  <a href="#Download" class="non-active">Download The App</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+  
+    <div class="header-img">
+      <img
+        id="header-img"
+                  src="https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2251&q=80"
+        alt="Woman looking at phone"
+      />
+      </div>
+      <div class="layover-text">
+        <h1>Great Communication Starts Here.</h1>
+      </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </header>
+  </div>
+  <div class = "body"> 
+    Welcome to TalkSuite: 
+    <p>A solution for staying in touch with coworkers, family, and friends</p>
+    
+   
+  </body>
+</html>
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-8216c69d01441f36c0ea791ae2d4469f0f8ff5326f00ae2d00e4bb7d20e24edb.js"></script>
+
+  
+      <script id="rendered-js" >
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+//# sourceURL=pen.js
+    </script>
+
+  
+
+</body>
+
+</html>
