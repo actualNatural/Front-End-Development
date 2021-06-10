@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+
+  <meta charset="UTF-8">
+  
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+
+<link rel="mask-icon" type="" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
+
+
+  <title>CodePen - Ken Tabony Survey Form Example</title>
+  
+  
+  
+  
+<style>
+h1 {
+  color: #427B85;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-size: 24px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 550; 
+  line-height: 1.2; 
+}
+
+body {
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-size: 18px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 26.4px; 
+  color: #427B85;
+  background: white;
+  text-align: center;
+}
+
+
+.form-group {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+  width: 100%;
+ 
+}
+.form-box {
+  border: 5px solid #427B85; /*#5E9EA9 */
+  background: #7AB5BF;
+  color: white;
+  padding: 0.50rem;
+  max-width: 600px;
+  display: inline-block; 
+}
+
+.form-control {
+  display: block;
+  width: 90%;
+  height: 2.0rem;
+  padding: 0.1rem 0.50rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no" >
+  <!DOCTYPE HTML>
+<html lang="en">
+<header>
+<h1 id="title">Ken Tabony Creations</h1>
+<h2> Survey Form </h2>
+<p id="description"> Thanks for stopping by! We value your input</p>
+  </header>
+<body translate="no">
+   <form id="survey-form" class="form-box">
+      <div class="form-group">
+      <label id="name-label" for="name">Please enter your name:</label>
+      <input
+        type="text"
+        name="name"
+        size="20"
+        maxlength="50"
+        id="name"
+        class="form-control"
+        placeholder="Your name here"
+        value=""
+       required
+      />
+    </div>
+     <div class="form-group">
+      <label id="email-label" for="email">Please enter your email:</label>
+      <input
+        type="email"
+        name="email"
+        size="20"
+        maxlength="50"
+        id="email"
+        class="form-control"
+        placeholder="Your email here"
+        value=""
+       required
+      />
+    </div>
+           <div class="form-group">
+      <label id="number-label" for="age">Please enter your age (optional):</label>
+      <input
+        type="number"
+        name="age"
+        min="8"
+        max="100"
+        id="number"
+        class="form-control"
+        placeholder="Age"
+        value=""
+       
+      />
+    </div>
+     <div class="form-group">
+      <p>Where did you hear about us?</p>
+      <label>
+        <p>
+        <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked
+        />Newspaper</p></label
+      >
+       
+      <label>
+        <p>
+        <input
+          name="user-recommend"
+          value="maybe"
+          type="radio"
+          class="input-radio"
+        />Recruiters</p></label
+      >
+     
+    
+
+      <label>
+        <p><input
+          name="user-recommend"
+          value="not-sure"
+          type="radio"
+          class="input-radio"
+                  />Magazines</p></label
+      >
+  
+  
+  <label>
+        <p><input
+          name="user-recommend"
+          value="not-sure"
+          type="radio"
+          class="input-radio"
+        />Websites</p></label
+      >
+    <label>
+        <p><input
+          name="user-recommend"
+          value="not-defined"
+          type="radio"
+          class="input-radio"
+        />Other</p></label
+      >
+  
+    </div>
+     
+     <div class="form-group">
+      <p>How would you describe your experience with Ken Tabony Creations?</p>
+      <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Select an option</option>
+        <option value="student">Fantastic!</option>
+        <option value="job">Too Simple</option>
+        <option value="learner">Too Complex</option>
+        <option value="preferNo">Not Enough Flash</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+     
+     
+     <div class="form-group">
+      <p>
+        What would you like to see improved?
+        <span class="clue">(Check all that apply)</span>
+      </p>
+
+      <label
+        ><p><input
+          name="prefer"
+          value="Color Scheme"
+          type="checkbox"
+          class="input-checkbox"
+                   />Color Scheme</p></label
+      >
+      <label>
+        <p><input
+          name="prefer"
+          value="Platform Flexibility"
+          type="checkbox"
+          class="input-checkbox"
+                  />Platform Flexibility</p></label
+      >
+      <label
+        ><p><input
+          name="prefer"
+          value="Simplicity"
+          type="checkbox"
+          class="input-checkbox"
+        />Simplicity</p></label
+      >
+      <label
+        ><p><input
+          name="prefer"
+          value="Different Layout"
+          type="checkbox"
+          class="input-checkbox"
+                   />Different Layout</p></label
+      >
+     
+    </div>
+     
+     <div class="form-group">
+      <p>Any comments or suggestions?</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your comment here..."
+      ></textarea>
+    </div>
+
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+  </form>
+</div>
+     
+   
+     
+            
+ 
+   </form>
+  </body>
+</html>
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-8216c69d01441f36c0ea791ae2d4469f0f8ff5326f00ae2d00e4bb7d20e24edb.js"></script>
+
+  
+      <script id="rendered-js" >
+document.getElementsByTagName("h1")[0].style.fontSize = "3vw";
+//# sourceURL=pen.js
+    </script>
+
+  
+
+</body>
+
+</html>
